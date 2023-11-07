@@ -1,0 +1,2 @@
+git branch x  创建新分支x
+git checkout x 当x是分支名时就跳转到分支
