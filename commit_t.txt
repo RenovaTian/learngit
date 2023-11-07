@@ -1,0 +1,15 @@
+git add filename 将文件添加到缓冲区
+
+git commit -m "备注"提交到本地仓库库
+
+git status 查看还有没有没有提交的修改
+
+git push origin branchname 表示将该分支的东西push到github上
+
+git rm filename 删除，真的会删除本地
+
+git checkout -- file  返回到上一次修改的状态
+
+git add --all 表示将所有修改全部提交到缓冲区，包括删除
+
+git add. 同理但不包括删除

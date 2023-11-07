@@ -1,0 +1,7 @@
+在cmd中 输入
+ssh-keygen -t rsa -C "youremail@xx.com"
+-t不加就默认rsa -C为注释
+
+git remote -v  为查看远程仓库连接状态
+
+git remote add origin ssh/url  表示连接远程库
