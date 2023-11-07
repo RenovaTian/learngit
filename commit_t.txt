@@ -4,7 +4,8 @@ git commit -m "备注"提交到本地仓库库
 
 git status 查看还有没有没有提交的修改
 
-git push origin branchname 表示将该分支的东西push到github上
+git push -u origin branchname 表示将该分支的东西push到github上
+-u（或 --set-upstream）选项用于将本地分支与远程分支进行关联。通过使用 -u 选项，Git 会将本地的 "master" 分支与名为 "origin/master" 的远程分支进行关联。这样，将来使用 git pull 命令时，Git 将自动将远程分支的更新合并到本地分支中。[只在第一次用就好了]
 
 git rm filename 删除，真的会删除本地
 
